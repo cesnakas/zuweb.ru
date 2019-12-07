@@ -1,0 +1,228 @@
+
+
+/* Start:/bitrix/templates/zuweb/components/bitrix/menu/list-menu/style.css?14459273981211*/
+/***********************************
+*            Navigation            *
+***********************************/
+
+.navigation{width:100%;min-width:1024px;height:48px;background-color:#303030;background-color:rgba(48,48,48,0.8);position:fixed;z-index:999;}
+.navigation::before, .navigation::after{content:'';display:table;}
+.navigation::after{clear:both;}
+.navigation-container{width:1024px;height:48px;margin:0 auto;padding:0 22px;}
+.navigation a:hover{text-decoration:none;}
+.logo{float:left;line-height:48px;}
+.logo a{display:block;font-size:1.4em;font-weight:400;letter-spacing:8px;text-transform:uppercase;}
+.logo a span{padding:2px 0 2px 9px;border:1px solid #0ae;}
+.navigation ul{float:right;}
+.navigation li{float:left;display:inline-block;line-height:48px;}
+.navigation li a{display:block;color:#eee;font-size:0.8em;padding:0 15px;transition:0.4s linear;}
+.navigation li a:hover, .selected{opacity:0.6;}
+.navigation li:last-child a{color:#0ae;font-size:1em;letter-spacing:-1px;line-height:36px;margin:6px 0;padding-right:0;border-left:1px solid #777;}
+.navigation li:last-child a:hover{opacity:1;}
+.navigation li:last-child a .fa{margin-right:5px;transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+
+/* End */
+
+
+/* Start:/bitrix/templates/zuweb/template_styles.css?14461216149707*/
+
+*::selection{color:#0ae;background:#303030;}
+*::-moz-selection{color:#0ae;background:#303030;}
+*::before, *::after{box-sizing:border-box;-webkit-box-sizing:border-box;}
+
+/*******************************
+*            Global            *
+*******************************/
+
+*{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;outline:none;}
+
+a{color:#0ae;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+body{min-width:980px;background:#fff;color:#303030;font-family:'Roboto', sans-serif;}
+
+li{list-style:none;}
+
+/***********************************
+*            Navigation            *
+***********************************/
+
+/*
+.navigation{width:100%;min-width:980px;height:48px;background-color:#303030;background-color:rgba(48,48,48,0.8);position:fixed;z-index:999;}
+.navigation::before, .navigation::after{content:'';display:table;}
+.navigation::after{clear:both;}
+.navigation-container{width:980px;height:48px;margin:0 auto;padding:0 10px;}
+.navigation a:hover{text-decoration:none;}
+.logo{float:left;line-height:48px;}
+.logo a{display:block;font-size:1.4em;font-weight:400;letter-spacing:8px;text-transform:uppercase;}
+.logo a span{padding:2px 0 2px 9px;border:1px solid #0ae;}
+.navigation ul{float:right;}
+.navigation li{float:left;display:inline-block;line-height:48px;}
+.navigation li a{display:block;color:#eee;font-size:0.8em;padding:0 15px;transition:0.4s linear;}
+.navigation li a:hover, .selected{opacity:0.6;}
+.navigation li:last-child a{color:#0ae;font-size:1em;letter-spacing:-1px;line-height:36px;margin:6px 0;padding-right:0;border-left:1px solid #777;}
+.navigation li:last-child a:hover{opacity:1;}
+.navigation li:last-child a .fa{margin-right:5px;transform:rotate(45deg);-webkit-transform:rotate(45deg);}
+*/
+.list-menu{display:none;}
+
+@media screen and (max-width:1024px){
+	.navigation{min-width:100%;}
+	.navigation-container{width:100%;}
+}
+@media screen and (max-width:980px){
+	.navigation li:last-child{display:none;}
+}
+@media screen and (max-width:760px){
+	.logo{float:none;text-align:center;}
+	.navigation .list-menu{display:none;}
+}
+
+/*******************************
+*            Header            *
+*******************************/
+
+header{min-width:980px;overflow:hidden;}
+@media screen and (max-width:1024px){
+	header{min-width:100%;}
+}
+
+/*****************************
+*            Main            *
+*****************************/
+
+.main{min-width:980px;overflow:hidden;}
+.main::before, .main::after{content:'';display:table;}
+.main::after{clear:both;}
+
+/********************************
+*            Section            *
+********************************/
+
+.section{min-width:980px;overflow:hidden;}
+.section::before, .section::after{content:'';display:table;}
+.section::after{clear:both;}
+@media screen and (max-width:1024px){
+	.section{min-width:100%;}
+}
+
+/********************************
+*            Columns            *
+********************************/
+
+.col-2{width:50%;float:left;}
+.col-4{width:25%;float:left;}
+.col-10{display:inline-block;width:10%;}
+
+/*********************************
+*            Services            *
+*********************************/
+
+#services{padding-top:80px;}
+#services::after{content:'';width:100.9%;height:100px;background:url(http://1c-bitrix.ru/bitrix/templates/1c-bitrix-new/images/wrap_cn_container.png);position:relative;top:50px;-webkit-transform:rotate(-2deg);transform:rotate(-2deg);}
+.services{width:80%;margin:0 auto;}
+.services li{position:relative;height:250px;padding:10px;transition:linear 0.5s, 0.5s;}
+.services li:hover{width:50%;}
+.services h5{margin:10px 0 0 0;transition:linear 0.5s, 0.5s;}
+.services li:hover h5{opacity:0;}
+.services li:nth-child(1), .services li:nth-child(2){border-bottom:1px solid #eee;}
+.services li:nth-child(2), .services li:nth-child(4){border-left:1px solid #eee;}
+
+.service-img{height:230px;opacity:1;margin:0 auto;text-align:center;transition:linear 0.5s, 0.5s;}
+.services li:hover .service-img{opacity:0;}
+.services .fa{color:rgba(0,170,238,0.6);margin-top:3px;zoom:8;}
+
+.part{width:100%;height:230px;opacity:0;line-height:30px;position:relative;top:-230px;margin:0 auto;-webkit-transition:linear 0.5s, 0.5s;transition:linear 0.5s, 0.5s;visibility:hidden;}
+.services li:hover .part{width:60%;opacity:1;visibility:visible;}
+li .part p:first-child{padding-top:20px;}
+
+/***********************************
+*            Services 2            *
+***********************************/
+
+ul.services-2{margin:0 auto;padding:80px 0;text-align:center;}
+.services-2 li{display:inline-block;width:150px;height:150px;margin:0 50px;border:2px solid #303030;border-bottom-color:#303030;border-right-color:transparent;border-top-color:transparent;border-radius:50%;}
+.services-2 li::before{content:'';display:block;width:100px;height:2px;background:#303030;position:relative;top:50%;left:-100px;}
+.services-2 li:nth-child(1)::after, .services-2 li:nth-child(2)::after, .services-2 li:nth-child(3)::after, .services-2 li:nth-child(4)::after{display:block;font-size:0.8em;font-weight:500;text-align:left;position:relative;left:-100px;top:-90px;}
+.services-2 li:nth-child(1)::after{content:'Дизайн';}
+.services-2 li:nth-child(2)::after{content:'Разработка';}
+.services-2 li:nth-child(3)::after{content:'Продвижение';}
+.services-2 li:nth-child(4)::after{content:'Поддержка';}
+
+.services-2 li:hover div{transform:rotate3d(-10,-10,0,360deg);-webkit-transform:rotate3d(-10,-10,0,360deg);}
+.services-2 li:first-child{margin-left:0;}
+.services-2 li:last-child{margin-right:0;}
+.services-2 li div{width:130px;height:130px;background:linear-gradient(#fefefe,#eee);margin-top:6px;margin-left:auto;margin-right:auto;border:2px solid #0ae;border-radius:50%;transition:0.5s linear;}
+.services-2 i.fa{color:#777;font-size:5em;padding:23px;}
+
+/*******************************
+*            Bitrix            *
+*******************************/
+
+#bx-services{background-color:#ECF2F5;background:url(http://1c-bitrix.ru/bitrix/templates/1c-bitrix-new/images/wrap_cn_container.png);}
+.bx-services{width:980px;margin:0 auto;padding:80px 0;}
+.bx-services .fa{width:48px;position:relative;top:10px;color:rgba(48,48,48,0.6);font-size:48px;text-align:center;margin-right:20px;}
+.bx-site{height:500px;background-image:url(/bitrix/templates/zuweb/images/bx-site.png);background-position:25%;background-repeat:no-repeat;background-size:contain;-webkit-transition:linear 0.5s, 0.5s;transition:linear 0.5s, 0.5s;}
+.bx-site:hover{-webkit-filter:drop-shadow(0 0 10px #888);filter:drop-shadow(0 0 10px #888);}
+.bx-plus p{font-size:20px;margin-left:30px;}
+.bx-plus p:first-child{margin-top:45px;}
+.tooltip{position:relative;cursor:default;}
+.tooltip span{opacity:0;width:80%;background:#fff;font-size:16px;padding:10px;position:absolute;top:-120px;left:60px;border:2px solid rgba(0,170,238,0.3);border-radius:4px;visibility:hidden;-webkit-transition:opacity 0.3s, 0.3s linear;transition:opacity 0.3s, 0.3s linear;z-index:100;}
+.tooltip span::before{content:'';display:block;position:absolute;top:132px;left:-37px;border:20px solid transparent;border-right:15px solid rgba(0,170,238,0.3);}
+.tooltip:hover span{left:69px;opacity:1;visibility:visible;}
+
+/*********************************
+*            Partners            *
+*********************************/
+
+#partners{padding-top:80px}
+.partners{min-width:980px;margin:0 auto;text-align:center;}
+#partners li{padding:10px;}
+#partners li figure{width:64px;height:64px;margin:0 auto;background-repeat:no-repeat;background-position:center center;background-size:contain;-webkit-filter:grayscale(1);filter:grayscale(1);opacity:0.3;transition:0.5s linear;}
+#partners li:hover figure{-webkit-filter:grayscale(0);filter:grayscale(0);opacity:1;}
+#partners li:nth-child(1) figure{background-image:url('/bitrix/templates/zuweb/images/partners/regru.jpg');}
+#partners li:nth-child(2) figure{background-image:url('/bitrix/templates/zuweb/images/partners/html5.png');}
+#partners li:nth-child(3) figure{background-image:url('/bitrix/templates/zuweb/images/partners/css3.png');}
+#partners li:nth-child(4) figure{background-image:url('/bitrix/templates/zuweb/images/partners/js.png');}
+#partners li:nth-child(5) figure{background-image:url('/bitrix/templates/zuweb/images/partners/wordpress.png');}
+#partners li:nth-child(6) figure{background-image:url('/bitrix/templates/zuweb/images/partners/joomla.png');}
+#partners li:nth-child(7) figure{background-image:url('/bitrix/templates/zuweb/images/partners/drupal.png');}
+#partners li:nth-child(8) figure{background-image:url('/bitrix/templates/zuweb/images/partners/modx.png');}
+#partners li:nth-child(9) figure{background-image:url('/bitrix/templates/zuweb/images/partners/1c-bitrix.jpg');}
+
+/*********************************
+*            Contacts            *
+*********************************/
+
+#contacts{padding:80px 0;}
+.contacts{width:980px;margin:0 auto;}
+.contacts li:first-child{border-right:1px solid #eee;}
+.contacts li:last-child{border-left:1px solid #eee;}
+.contacts p{font-size:24px;font-weight:300;padding:10px;}
+.contacts .fa{margin-right:10px;}
+
+/*******************************
+*            Footer            *
+*******************************/
+
+footer{min-width:980px;padding:20px 0;overflow:hidden;}
+footer::before, footer::after{content:'';display:table;}
+footer::after{clear:both;}
+.footer{width:980px;margin:0 auto;padding:20px 10px;border-top:1px solid rgba(0,170,238,0.3);}
+.copyright{float:left;font-size:12px;line-height:14px;}
+.copyright a:hover{text-decoration:underline;}
+.copyright span{margin-right:10px;padding-right:10px;border-right:1px solid rgba(48,48,48,0.6);}
+.footer-logo{letter-spacing:6px;}
+a.footer-logo:hover{text-decoration:none;}
+.footer-logo span{margin:0;padding:0 0 0 5px;border:1px solid #0ae;}
+.social{float:right;color:rgba(48,48,48,0.8);font-size:12px;line-height:14px;}
+.social .fa{margin:0 5px;}
+
+@media screen and (max-width:1024px){
+	footer{min-width:100%;}
+	.footer{width:90%;}
+}
+
+/* End */
+/* /bitrix/templates/zuweb/components/bitrix/menu/list-menu/style.css?14459273981211 */
+/* /bitrix/templates/zuweb/template_styles.css?14461216149707 */

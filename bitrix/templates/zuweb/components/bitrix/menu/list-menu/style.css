@@ -1,0 +1,19 @@
+/***********************************
+*            Navigation            *
+***********************************/
+
+.navigation{width:100%;min-width:1024px;height:48px;background-color:#303030;background-color:rgba(48,48,48,0.8);position:fixed;z-index:999;}
+.navigation::before, .navigation::after{content:'';display:table;}
+.navigation::after{clear:both;}
+.navigation-container{width:1024px;height:48px;margin:0 auto;padding:0 22px;}
+.navigation a:hover{text-decoration:none;}
+.logo{float:left;line-height:48px;}
+.logo a{display:block;font-size:1.4em;font-weight:400;letter-spacing:8px;text-transform:uppercase;}
+.logo a span{padding:2px 0 2px 9px;border:1px solid #0ae;}
+.navigation ul{float:right;}
+.navigation li{float:left;display:inline-block;line-height:48px;}
+.navigation li a{display:block;color:#eee;font-size:0.8em;padding:0 15px;transition:0.4s linear;}
+.navigation li a:hover, .selected{opacity:0.6;}
+.navigation li:last-child a{color:#0ae;font-size:1em;letter-spacing:-1px;line-height:36px;margin:6px 0;padding-right:0;border-left:1px solid #777;}
+.navigation li:last-child a:hover{opacity:1;}
+.navigation li:last-child a .fa{margin-right:5px;transform:rotate(45deg);-webkit-transform:rotate(45deg);}

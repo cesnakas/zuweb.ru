@@ -1,0 +1,28 @@
+2015-10-24 00:05:29 -  - exec CUpdateClientPartner::SearchModulesEx
+2015-10-24 00:05:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-10-24 00:05:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.zuweb.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.7&dbv=5.5.35&instm=main%2C15.5.8%2CY%3Biblock%2C15.5.8%2CN%3Bsocialservices%2C15.5.1%2CN%3Bperfmon%2C15.5.1%2CN%3Bsearch%2C15.5.1%2CN%3Bcompression%2C14.0.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bseo%2C15.5.4%2CN%3Bfileman%2C15.5.2%2CN%3Btranslate%2C14.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C15.0.4%2CN%3Bclouds%2C15.5.1%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2015-10-24 00:05:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-10-24 00:05:30 -  - TIME SearchModulesEx(request) 1.102 sec
+2015-10-24 00:05:30 -  - exec CUpdateClientPartner::ParseServerData
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::LoadModuleNoDemand
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-10-24 00:05:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.zuweb.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=5.6.7&dbv=5.5.35&instm=main%2C15.5.8%2CY%3Biblock%2C15.5.8%2CN%3Bsocialservices%2C15.5.1%2CN%3Bperfmon%2C15.5.1%2CN%3Bsearch%2C15.5.1%2CN%3Bcompression%2C14.0.0%2CN%3Bbitrixcloud%2C15.5.0%2CN%3Bseo%2C15.5.4%2CN%3Bfileman%2C15.5.2%2CN%3Btranslate%2C14.0.0%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN%3Bhighloadblock%2C15.0.4%2CN%3Bclouds%2C15.5.1%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-10-24 00:05:43 -  - TIME LoadModuleNoDemand(request) 0.361 sec
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::UnGzipArchive
+2015-10-24 00:05:43 -  - TIME UnGzipArchive 0.008 sec
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::GetStepUpdateInfo
+2015-10-24 00:05:43 -  - exec CUpdateClientPartner::ParseServerData
+2015-10-24 00:05:43 -  - TIME UpdateStepModules 0.01 sec
+2015-10-24 00:28:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2015-10-24 00:28:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-10-24 00:28:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.zuweb.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.6.7&dbv=5.5.35&instm=main%2C15.5.8%2CN%3Biblock%2C15.5.8%2CN%3Bcompression%2C14.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=N
+2015-10-24 00:28:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-10-24 00:28:22 -  - TIME GetUpdatesList(request) 0.306 sec
+2015-10-24 00:28:22 -  - exec CUpdateClientPartner::ParseServerData
+2015-10-27 11:39:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2015-10-27 11:39:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2015-10-27 11:39:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=www.zuweb.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=E&CLIENT_PHPVER=5.6.7&dbv=5.5.35&instm=main%2C15.5.9%2CN%3Biblock%2C15.5.8%2CN%3Bcompression%2C14.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.2%2CN%3Bfileman%2C15.5.2%2CN%3Bbitrix.sitecorporate%2C15.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&SUPD_SRS=RU&SUPD_CMP=Y
+2015-10-27 11:39:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2015-10-27 11:39:40 -  - TIME GetUpdatesList(request) 0.719 sec
+2015-10-27 11:39:40 -  - exec CUpdateClientPartner::ParseServerData
